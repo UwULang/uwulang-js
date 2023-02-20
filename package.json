@@ -1,0 +1,23 @@
+{
+    "name": "uwulang",
+    "version": "1.0.0",
+    "description": "the #1 programming language to get things done",
+    "main": "/src/interpreter.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/UwULang/uwulang-js.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/UwULang/uwulang-js/issues"
+    },
+    "type": "module",
+    "homepage": "https://github.com/UwULang/uwulang-js#readme"
+}
