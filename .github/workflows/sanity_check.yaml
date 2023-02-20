@@ -1,0 +1,18 @@
+on:
+    pull_request:
+        branches:
+            - main
+    push:
+        branches:
+            - main
+
+name: Sanity Check
+jobs:
+    sanity_check:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: 18
+            - run: sh ./test/test.sh
